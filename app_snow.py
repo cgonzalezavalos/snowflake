@@ -19,4 +19,6 @@ with sidebar:
         role=st.text_input("role")
         wh=st.text_input("Warehouse")
         db=st.text_input("database")
-        connect=st.button("Conectar a Snowflake",on_click=con_to_snow)
+        connect=st.button("Conectar a Snowflake",\
+                          on_click=con_to_snow,\
+                            args=(account,username,password,role,wh,db))
