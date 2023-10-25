@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-import snowflake.connector as sfc
+import snowflake.connector as sf
 from datetime import date
 
 
