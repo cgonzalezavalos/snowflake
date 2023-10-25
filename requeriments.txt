@@ -1,0 +1,6 @@
+pandas
+snowflake-connector-python
+streamlit
+seaborn
+toml
+altair
